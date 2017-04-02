@@ -1,12 +1,23 @@
 <template>
     <div class="container">
-      <h1>Hello </h1>
+      <app-quote-grid :quotes="quotes"></app-quote-grid>
     </div>
 </template>
 
 <script>
+import QuoteGrid from './components/QuoteGrid.vue'
     export default {
-
+      data: function(){
+        return{
+          quotes: [
+            'Go Denver Broncos!'
+          ],
+          maxQuote: 10
+        }
+      },
+      components: {
+        appQuoteGrid: QuoteGrid
+      }
     }
 </script>
 
