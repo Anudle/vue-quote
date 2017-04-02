@@ -16,7 +16,7 @@ export default {
 
 <style lang="css">
 panel-body{
-  font-family: 'Arizonia'; 
+  font-family: 'Arizonia',
   font-size: 24px;
   color: #6e6e6e;
 }
